@@ -1,0 +1,10 @@
+deop on login: true
+console op only: true
+teleport delay: 10
+warp radius: 1000
+firstspawn:
+  enable: false
+  x:
+  y:
+  z:
+  

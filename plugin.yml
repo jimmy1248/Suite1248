@@ -1,0 +1,63 @@
+name: Suite1248
+main: net.jimmy1248.suite1248.Suite1248
+version: 1.5.2
+commands:
+  spawn:
+    description: Teleports you to spawn
+    usage: /spawn
+    permission: suite1248.spawn
+    permission-message: You don't have <permission>
+  setspawn:
+    description: Teleports you to spawn
+    usage: /setspawn
+    permission: suite1248.setspawn
+    permission-message: You don't have <permission>
+  bed:
+    description: Teleports you to spawn
+    usage: /bed
+    permission: suite1248.bed
+    permission-message: You don't have <permission>
+  op:
+    description: Ops a player
+    usage: /op player
+    permission: bukkit.command.op.give
+    permission-message: You don't have <permission> 
+  warp:
+    description: Teleport a player to a random location
+    usage: /warp
+    permission: suite1248.warp
+    permission-message: You don't have <permission>  
+  setfirstspawn:
+    description: Sets the spawn point for new players
+    usage: /setfirstspawn
+    permission: suite1248.setfirstspawn
+    permission-message: You don't have <permission>
+  firstspawn:
+    description: Teleports you to the spawn point for new players
+    usage: /firstspawn
+    permission: suite1248.firstspawn
+    permission-message: You don't have <permission>
+    
+
+permissions:
+    suite1248.bed:
+        description: Teleports player to bed
+        default: true
+    suite1248.spawn:
+        description: Teleports player to spawn
+        default: true
+    suite1248.warp:
+        description: Teleport a player to a random location
+        default: true
+    suite1248.firstspawn:
+        description: Teleports you to the spawn point for new players
+        default: true
+    suite1248.op:
+        description: Ops a player
+        default: Op 
+    suite1248.setspawn:
+        description: Sets spawn location
+        default: Op
+    suite1248.setfirstspawn:
+        description: Sets the spawn point for new players
+        default: Op
